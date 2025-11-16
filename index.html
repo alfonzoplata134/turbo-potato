@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> sofia te amo</title>
+<style>
+    body {
+        front-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(181, 198, 226);}
+     
+    header {
+        background-color: rgb(230, 201, 233);
+        color: rgb(190, 138, 240);
+        padding: 20px;
+        text-align: center; 
+    }
+    ::selection {padding: 20px;}
+    button {
+        background-color: darkgrey;
+        border: none;
+        padding: 10px 20px;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    button:hover {
+        background-color: azure;
+    }
+ </style>
+</head>
+<body>
+    <header>
+        <h1> ¡ te amo hermosa !</h1>
+    </header>
+
+    <selection>
+        <p>no puedo evitar sacarme un moco sin pensar en ti.</p>
+        <button onclick="mostrarMensaje()">Haz click aquí</button>
+        <p id="mensaje"></p>
+    </selection>
+ 
+<script> 
+    function mostrarMensaje() {
+        document.getElementById("mensaje").innerText = " te amo preciosa mia.";
+    }
+</script>
+
+</body>
+</html>
